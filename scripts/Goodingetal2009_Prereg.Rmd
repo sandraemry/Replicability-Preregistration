@@ -1,6 +1,6 @@
 ---
-title           : "My preregistration for the COS Preregistration Challenge"
-shorttitle      : "My preregistration"
+title           : "Preregistration for reproducing Gooding et al. 2009"
+shorttitle      : "Gooding et al. peregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
 author: 
@@ -33,7 +33,7 @@ Example: Effect of sugar on brownie tastiness. -->
 
 Example: Though there is strong evidence to suggest that sugar affects taste preferences, the effect has never been demonstrated in brownies. Therefore, we will measure taste preference for four different levels of sugar concentration in a standard brownie recipe to determine if the effect exists in this pastry. -->
 
-Enter your response here.
+This study is aimed at reproducing the results from Gooding et al. 2009 with simulated data. The authors investigated the combined effects of temperature and increased CO~2~ on the growth and feeding behaviour of the seastar *Pisaster Ochraceus*, a keystone predator in the intertidal zone. 
 
 
 ## Hypotheses
@@ -41,7 +41,7 @@ Enter your response here.
 
 Example: If taste affects preference, then mean preference indices will be higher with higher concentrations of sugar. -->
 
-Enter your response here.
+We hypothesize that *P. ochraceus* growth rates will increase linearly across the range of temperatures employed in this study.  
 
 
 # Design Plan
@@ -52,23 +52,11 @@ Enter your response here.
 
 **Experiment**. A researcher randomly assigns treatments to study subjects, this includes field or lab experiments. This is also known as an intervention experiment and includes randomized controlled trials.
 
-**Observational Study**. Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
-
-**Meta-Analysis**. A systematic review of published studies.
-
-**Other**. Please explain.
-
 
 ## Blinding
 <!-- Blinding describes who is aware of the experimental manipulations within a study. Select all that apply. Is there any additional blinding in this study? -->
 
 No blinding is involved in this study.
-
-For studies that involve human subjects, they will not know the treatment group to which they have been assigned.
-
-Personnel who interact directly with the study subjects (either human or non-human subjects) will not be aware of the assigned treatments.
-
-Personnel who analyze the data collected from the study are not aware of the treatment applied to any given group.
 
 
 ## Study design
@@ -78,15 +66,14 @@ This question has a variety of possible answers. The key is for a researcher to 
 
 Example: We have a between subjects design with 1 factor (sugar by mass) with 4 levels. -->
 
-Enter your response here.
-
+Juvenile *P. ochraceus* will be reared in the lab, at temperatures ranging from 5 - 21 &deg;C. We will use twenty-four tanks, 246L in volume, with recirculating water to house seastars. Two seastars will be placed inside each tank, contained in their own tupperware with mesh sides and tops to ensure water flow, for a total of 48 seastars. Relative growth of the 2 seastars inside a single tank will be averaged, thus tank is the independent unit in this design. 
 
 ## Randomization
 <!-- If you are doing a randomized study, how will you randomize, and at what level? Typical randomization techniques include: simple, block, stratified, and adaptive covariate randomization. If randomization is required for the study, the method should be specified here, not simply the source of random numbers.
 
 Example: We will use block randomization, where each participant will be randomly assigned to one of the four equally sized, predetermined blocks. The random number list used to create these four blocks will be created using the web applications available at http://random.org. -->
 
-Enter your response here.
+Each of the 48 seastars used in this study will be randomly assigned to tanks. 
 
 
 # Sampling Plan
