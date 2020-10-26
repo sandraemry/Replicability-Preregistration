@@ -2,16 +2,17 @@
   #First we will generate weight data
   #Then we will want to run a linear regression to find the % of change from initial wet mass
 
+#The model [ y = β0 + β1x + ε ]
+
 #Setting the seed to get reproducible random numbers, this value is arbitrary
 set.seed(2020)
 
 #Next we need to determine the number of weight(g) observations we will take (sample size, each sea star is weighed as a juvenile)
 n <- 48
 
-#We will want a normal distribution for initial wet mass in grams
-x <- rnorm(n = 48, mean = 4.65, sd = 0.19)
-
-# I think we need to be able to apply the linear function from the paper to our initial mass to develope a growth curve#
+#We will want a normal distribution for the relative growth (change in wet mass/initial mass) this will represent epsilon (e)
+#Current values are for the initial mass of subjects.
+e <- rnorm(n = 48, mean = 4.65, sd = 0.19)
 
 
 #Our temperatures are on the x-axis and will be a pre-determined range (5-21 deg Celsius), not needed to be generated,
