@@ -11,6 +11,9 @@ n <- 48
 #We will want a normal distribution for initial wet mass in grams
 x <- rnorm(n = 48, mean = 4.65, sd = 0.19)
 
+# I think we need to be able to apply the linear function from the paper to our initial mass to develope a growth curve#
+
+
 #Our temperatures are on the x-axis and will be a pre-determined range (5-21 deg Celsius), not needed to be generated,
 #Currently we have the initial growth measurements going into the 'x' variable, but this can be changed.
 
@@ -21,3 +24,4 @@ x <- rnorm(n = 48, mean = 4.65, sd = 0.19)
 #b0 <- SLOPE
 
 #b1 <- INTERCEPT
+
