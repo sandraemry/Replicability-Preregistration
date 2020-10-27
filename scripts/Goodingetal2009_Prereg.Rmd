@@ -26,7 +26,7 @@ output: prereg::cos_prereg
 Example: Effect of sugar on brownie tastiness. -->
 
 `r rmarkdown::metadata$title`
-
+Effects of Increasing Temperature on Sea Star Growth
 
 ## Description
 <!-- Please give a brief description of your study, including some background, the purpose of the of the study, or broad research questions. The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your preregistration.
@@ -47,6 +47,7 @@ We hypothesize that *P. ochraceus* growth rates will increase linearly across th
 # Design Plan
 <!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
 
+We plan to run growth trials under different set temperatures for juvenile sea stars *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 degrees calcium. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration. At the end on the 8 weeks, individuals will be re-weighed and relative growth will be determined. We will then determine if there is a correlation between growth rate and tank temperature. 
 
 ## Study type
 
@@ -79,6 +80,7 @@ Each of the 48 seastars used in this study will be randomly assigned to tanks.
 # Sampling Plan
 <!-- In this section we’ll ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study. -->
 
+We plan to sample 48 individuals, this size complies with our lab space constraints of 24 available tanks.
 
 ## Existing data
 <!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io). -->
