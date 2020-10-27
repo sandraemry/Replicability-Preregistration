@@ -1,9 +1,6 @@
 
 #Here we are going to generate some data that reflects the growth of the sea star
-  #First we will generate weight data
-  #Then we will want to run a linear regression to find the % of change from initial wet mass
-
-#The model [ y = β0 + β1x + ε ]
+ 
 
 #Setting the seed to get reproducible random numbers, this value is arbitrary
 set.seed(5)
