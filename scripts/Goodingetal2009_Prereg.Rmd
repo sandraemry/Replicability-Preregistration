@@ -255,9 +255,7 @@ Enter your response here.
 
 ```{r growth with temp, echo = FALSE, fig.cap="caption", out.width='100%'}
 knitr::include_graphics("/Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistration/growth_with_temp.png")
-
 ```
-
 
 # Other
 

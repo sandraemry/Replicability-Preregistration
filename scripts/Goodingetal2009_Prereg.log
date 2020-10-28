@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  28 OCT 2020 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  28 OCT 2020 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,37 +298,14 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 42.
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 42.
-(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.c
-fg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
-
-(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
-) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/grffile/grffile.sty
-Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
-y)
-Package grffile Info: This package is an empty stub for compatibility on input 
-line 40.
-) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
 \LTpre=\skip55
 \LTpost=\skip56
 \LTchunksize=\count274
-\LTcapwidth=\dimen162
+\LTcapwidth=\dimen160
 \LT@head=\box49
 \LT@firsthead=\box50
 \LT@foot=\box51
@@ -340,23 +317,23 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LT@p@ftn=\toks25
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen163
-\lightrulewidth=\dimen164
-\cmidrulewidth=\dimen165
-\belowrulesep=\dimen166
-\belowbottomsep=\dimen167
-\aboverulesep=\dimen168
-\abovetopsep=\dimen169
-\cmidrulesep=\dimen170
-\cmidrulekern=\dimen171
-\defaultaddspace=\dimen172
+\heavyrulewidth=\dimen161
+\lightrulewidth=\dimen162
+\cmidrulewidth=\dimen163
+\belowrulesep=\dimen164
+\belowbottomsep=\dimen165
+\aboverulesep=\dimen166
+\abovetopsep=\dimen167
+\cmidrulesep=\dimen168
+\cmidrulekern=\dimen169
+\defaultaddspace=\dimen170
 \@cmidla=\count279
 \@cmidlb=\count280
-\@aboverulesep=\dimen173
-\@belowrulesep=\dimen174
+\@aboverulesep=\dimen171
+\@belowrulesep=\dimen172
 \@thisruleclass=\count281
 \@lastruleclass=\count282
-\@thisrulewidth=\dimen175
+\@thisrulewidth=\dimen173
 )
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/threepar
 ttable.sty
@@ -366,19 +343,19 @@ Package: threeparttable 2003/06/13  v 3.0
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
-\col@sep=\dimen176
+\col@sep=\dimen174
 \ar@mcellbox=\box54
-\extrarowheight=\dimen177
+\extrarowheight=\dimen175
 \NC@list=\toks26
 \extratabsurround=\skip57
 \backup@length=\skip58
 \ar@cellbox=\box55
 )
-\TX@col@width=\dimen178
-\TX@old@table=\dimen179
-\TX@old@col=\dimen180
-\TX@target=\dimen181
-\TX@delta=\dimen182
+\TX@col@width=\dimen176
+\TX@old@table=\dimen177
+\TX@old@col=\dimen178
+\TX@target=\dimen179
+\TX@delta=\dimen180
 \TX@cols=\count283
 \TX@ftn=\toks27
 )
@@ -405,39 +382,40 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box56
 \beforetitleunit=\skip71
 \aftertitleunit=\skip72
-\ttl@plus=\dimen183
-\ttl@minus=\dimen184
+\ttl@plus=\dimen181
+\ttl@minus=\dimen182
 \ttl@toksa=\toks28
-\titlewidth=\dimen185
-\titlewidthlast=\dimen186
-\titlewidthfirst=\dimen187
+\titlewidth=\dimen183
+\titlewidthlast=\dimen184
+\titlewidthfirst=\dimen185
 )
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count285
 \l__pdf_internal_box=\box57
-) (./Goodingetal2009_Prereg.aux)
+)
+No file Goodingetal2009_Prereg.aux.
 \openout1 = `Goodingetal2009_Prereg.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
-LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -478,8 +456,11 @@ Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
-)
-Package hyperref Info: Link coloring ON on input line 134.
+
+(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+Package hyperref Info: Link coloring ON on input line 125.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -491,81 +472,68 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count286
 )
-LaTeX Info: Redefining \ref on input line 134.
-LaTeX Info: Redefining \pageref on input line 134.
-LaTeX Info: Redefining \nameref on input line 134.
-(./Goodingetal2009_Prereg.out) (./Goodingetal2009_Prereg.out)
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
 \@outlinefile=\write3
 \openout3 = `Goodingetal2009_Prereg.out'.
 
-
-(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sy
-s.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-35.
+26.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-35.
+26.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-135.
+126.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-135.
+126.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 135.
+(Font)              <12> on input line 126.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 135.
+(Font)              <8> on input line 126.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 135.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 135
+(Font)              <6> on input line 126.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 126
 .
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 135
+LaTeX Font Info:    Trying to load font information for U+msb on input line 126
 .
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 153.
+(hyperref)                be the same. Added a new anchor on input line 144.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 163.
+(Font)              <10> on input line 154.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 163.
+(Font)              <7> on input line 154.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 163.
+(Font)              <5> on input line 154.
 [1
 
 {/Users/sandraemry/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 }]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 187.
+(hyperref)                be the same. Added a new anchor on input line 178.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-02.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+93.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -578,73 +546,29 @@ This may cause the page layout to be inconsistent, however.
 [2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 223.
+(hyperref)                be the same. Added a new anchor on input line 214.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 264.
+(hyperref)                be the same. Added a new anchor on input line 255.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 282.
+(hyperref)                be the same. Added a new anchor on input line 273.
 
 [3]
-<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-2-1.pdf, id=153, 469.7
-55pt x 325.215pt>
-File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-2-1.pdf Graphic f
-ile (type pdf)
-<use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-2-1.pdf>
-Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
-k-2-1.pdf  used on input line 312.
-(pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
-</Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistration
-/growth_with_temp.png, id=154, 2107.875pt x 1505.625pt>
-File: /Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistr
-ation/growth_with_temp.png Graphic file (type png)
-<use /Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistra
-tion/growth_with_temp.png>
-Package pdftex.def Info: /Users/sandraemry/Documents/Replicability_Course/Repli
-cability-Preregistration/growth_with_temp.png  used on input line 315.
-(pdftex.def)             Requested size: 361.32523pt x 258.08945pt.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 322.
-
-[4 <./Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-2-1.pdf>]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 330.
-
-[5 </Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistrat
-ion/growth_with_temp.png>] (./Goodingetal2009_Prereg.aux)
-Package rerunfilecheck Info: File `Goodingetal2009_Prereg.out' has not changed.
-
-(rerunfilecheck)             Checksum: E379D68DEA593697CB573FE2F57A815F;3842.
- ) 
+! Undefined control sequence.
+<recently read> \includegraphics 
+                                 
+l.302 \includegraphics
+                      [width=1\linewidth]{/Users/sandraemry/Documents/Replic...
+ 
 Here is how much of TeX's memory you used:
- 10864 strings out of 481445
- 157920 string characters out of 5919711
- 442175 words of memory out of 5000000
- 27360 multiletter control sequences out of 15000+600000
+ 10483 strings out of 481445
+ 150766 string characters out of 5919711
+ 435320 words of memory out of 5000000
+ 27028 multiletter control sequences out of 15000+600000
  592045 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,11n,72p,314b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/Users/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{
-/Users/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</Use
-rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Use
-rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Use
-rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></Us
-ers/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Use
-rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></User
-s/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users
-/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/s
-andraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/san
-draemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/san
-draemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on Goodingetal2009_Prereg.pdf (5 pages, 343904 bytes).
-PDF statistics:
- 230 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 500000)
- 259 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 66i,11n,72p,254b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
