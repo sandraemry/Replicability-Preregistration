@@ -253,6 +253,8 @@ Example: We expect that certain demographic traits may be related to taste prefe
 
 Enter your response here.
 
+# Plots
+![](./figures/growth_with_temp.pdf)
 
 # Other
 
