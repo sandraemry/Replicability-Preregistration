@@ -57,7 +57,7 @@ growth_with_temp <-
                             ymin = (.fitted - .se.fit)), alpha = 0.25) + 
   theme_bw()
 
-ggsave("./figures/growth_with_temp.pdf", growth_with_temp, 
+ggsave("./figures/growth_with_temp.png", growth_with_temp, 
        height = 5, width = 7, units ="in")
 
 

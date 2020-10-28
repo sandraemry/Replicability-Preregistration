@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  28 OCT 2020 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  28 OCT 2020 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,8 +417,7 @@ tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count285
 \l__pdf_internal_box=\box57
-)
-No file Goodingetal2009_Prereg.aux.
+) (./Goodingetal2009_Prereg.aux)
 \openout1 = `Goodingetal2009_Prereg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
@@ -495,6 +494,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 134.
 LaTeX Info: Redefining \pageref on input line 134.
 LaTeX Info: Redefining \nameref on input line 134.
+(./Goodingetal2009_Prereg.out) (./Goodingetal2009_Prereg.out)
 \@outlinefile=\write3
 \openout3 = `Goodingetal2009_Prereg.out'.
 
@@ -589,27 +589,62 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 282.
 
 [3]
+<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-2-1.pdf, id=153, 469.7
+55pt x 325.215pt>
+File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-2-1.pdf Graphic f
+ile (type pdf)
+<use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-2-1.pdf>
+Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
+k-2-1.pdf  used on input line 312.
+(pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
+</Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistration
+/growth_with_temp.png, id=154, 2107.875pt x 1505.625pt>
+File: /Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistr
+ation/growth_with_temp.png Graphic file (type png)
+<use /Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistra
+tion/growth_with_temp.png>
+Package pdftex.def Info: /Users/sandraemry/Documents/Replicability_Course/Repli
+cability-Preregistration/growth_with_temp.png  used on input line 315.
+(pdftex.def)             Requested size: 361.32523pt x 258.08945pt.
 
-LaTeX Warning: File `./figures/growth_with_temp.pdf' not found on input line 31
-3.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 322.
 
+[4 <./Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-2-1.pdf>]
 
-! Package pdftex.def Error: File `./figures/growth_with_temp.pdf' not found: us
-ing draft setting.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 330.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.313 ...egraphics{./figures/growth_with_temp.pdf}
-                                                   
+[5 </Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistrat
+ion/growth_with_temp.png>] (./Goodingetal2009_Prereg.aux)
+Package rerunfilecheck Info: File `Goodingetal2009_Prereg.out' has not changed.
+
+(rerunfilecheck)             Checksum: E379D68DEA593697CB573FE2F57A815F;3842.
+ ) 
 Here is how much of TeX's memory you used:
- 10815 strings out of 481445
- 156496 string characters out of 5919711
- 440708 words of memory out of 5000000
- 27320 multiletter control sequences out of 15000+600000
+ 10864 strings out of 481445
+ 157920 string characters out of 5919711
+ 442175 words of memory out of 5000000
+ 27360 multiletter control sequences out of 15000+600000
  592045 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,11n,72p,254b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,11n,72p,314b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{
+/Users/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</Use
+rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Use
+rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Use
+rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></Us
+ers/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Use
+rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></User
+s/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users
+/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/s
+andraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/san
+draemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/san
+draemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on Goodingetal2009_Prereg.pdf (5 pages, 343904 bytes).
+PDF statistics:
+ 230 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 45 named destinations out of 1000 (max. 500000)
+ 259 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!
