@@ -11,26 +11,26 @@ author:
   
   - name        : Author
     affiliation : 1
-  - name        : Ernst-August Doelle
-    affiliation : "1,2"
+  - name        : Emry Sandra
+    affiliation : "1"
 
   - name        : Author
     affiliation : 1
-  - name        : Ernst-August Doelle
-    affiliation : "1,2"
+  - name        : Brownlee Graham
+    affiliation : "1"
 
   - name        : Author
-    affiliation : 1
-  - name        : Ernst-August Doelle
-    affiliation : "1,2"
+    affiliation : 2
+  - name        : Biddlecombe Brooke
+    affiliation : "2"
 
 
 
 affiliation:
   - id          : 1
-    institution : Wilhelm-Wundt-University
+    institution : University of British Columbia
   - id          : 2
-    institution : Konstanz Business School
+    institution : University of Manitoba
   - id          : 3
     institution : Concordia University
 
@@ -253,6 +253,9 @@ Example: We expect that certain demographic traits may be related to taste prefe
 
 Enter your response here.
 
+```{r growth with temp, echo = FALSE, fig.cap="caption", out.width='100%'}
+knitr::include_graphics("/Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistration/growth_with_temp.png")
+```
 
 # Other
 
