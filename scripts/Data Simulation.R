@@ -1,34 +1,27 @@
 
-#Here we are going to generate some data that reflects the growth of the sea star
+# Here we are going to generate some data that reflects the growth of the sea star
  
 
-#Setting the seed to get reproducible random numbers, this value is arbitrary
+# Setting the seed to get reproducible random numbers, this value is arbitrary
 set.seed(5)
 
-#Next we need to determine the number of weight(g) observations we will take (sample size, each sea star is weighed as a juvenile)
-# we might not do this and rather have n defined per line
-#n <- 19
+# Next we need to determine the number of weight(g) observations we will take (sample size, each sea star is weighed as a juvenile)
+#  we will define n = 19 defined when addressing the independent variable
 
-#We want a normal distribution for temperature within a range, or else we change the run to categorical and set the temperatures
-#from 5.04 -21.62 degress celcius - min and max values taken from data set
+# We want a normal distribution for temperature within a range
+# from 5.04 -21.62 degrees celcius - min and max values taken from data set
 
 x <- runif(n = 19, min = 5.04, max = 21.62)
 
-#We will want a normal distribution for the relative growth (change in wet mass/initial mass) this will represent epsilon (e)
-#I'm not fully sure if this is the right way to input e, but without the slope and intercept it is hard to test if this makes sense
-#Current values are for the initial mass of subjects. Calculations for relative growth were not given in the paper
 
-#e <- rnorm(n = 48, mean = 4.65, sd = 0.19)
-
-
-#defining the slope and then the intercept of the original regression
+# defining the slope and then the intercept of the original regression
 # initial regression equation taken from data gooding_harley_2009.csv
 
 b0 <- 7.717
 
 b1 <- -45.036
 
-#Next we can try putting it all together and see if we get some data!
+# Next we can try putting it all together and see if we get some data!
 # I increased the standard deviation that is used to add noise to the data from the 1 that was given in the example to make the SE for simulated data more realistic
 
 ytrue <- (b0 * x) + b1
