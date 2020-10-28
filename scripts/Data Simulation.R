@@ -1,3 +1,5 @@
+library(tidyverse)
+library(broom)
 
 #Here we are going to generate some data that reflects the growth of the sea star
  
@@ -48,4 +50,21 @@ summary(m)
 #create plot
 plot(ysim_norm ~ x, data = df, xlim=c(0,25), ylim=c(-25,150), xlab= "Temperature (°C)", ylab= "Relative Growth (%)", pch=16) + 
   abline(lm(ysim_norm ~ x))
+
+## creating a df with predicted values from model output
+predicted <- augment(m, se_fit = TRUE)
+
+growth_with_temp <- 
+  ggplot(data = predicted, aes(x = x, y = ysim_norm)) + 
+  geom_point() + 
+  labs(x = "Temperature (°C)", y = "Relative Growth (%)") + 
+  geom_line(aes(y = .fitted)) + 
+  geom_ribbon(aes(y = .fitted, 
+                            ymax = (.fitted + .se.fit), 
+                            ymin = (.fitted - .se.fit)), alpha = 0.25) + 
+  theme_bw()
+
+ggsave("./figures/growth_with_temp.pdf", growth_with_temp, 
+       height = 5, width = 7, units ="in")
+
 
