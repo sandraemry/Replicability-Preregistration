@@ -35,6 +35,8 @@ affiliation:
     institution : Concordia University
 
 output: prereg::cos_prereg
+bibliography: intro_bibliography.bib
+
 ---
 
 # Study Information
@@ -52,15 +54,14 @@ Effects of Increasing Temperature on Sea Star Growth
 
 Example: Though there is strong evidence to suggest that sugar affects taste preferences, the effect has never been demonstrated in brownies. Therefore, we will measure taste preference for four different levels of sugar concentration in a standard brownie recipe to determine if the effect exists in this pastry. -->
 
-This study is aimed at reproducing the results from Gooding et al. 2009 with simulated data. The authors investigated the combined effects of temperature and increased CO~2~ on the growth and feeding behaviour of the seastar *Pisaster Ochraceus*, a keystone predator in the intertidal zone. 
-
+As ectotherms, marine invertebrates are entirely dependent on their environment to control and regulate their body temperature. Many key physiological processes and rates that dictate the performance and fitness of invertebrates are temperature-dependent, and shifts in thermal regimes, and the associated performances responses by affected species, can lead to population- and community-level changes [@Bruno2015; @Vasseur2014]. Human-driven climate change and warming are not only contributing to warmer waters in the worlds oceans, but are also leading to extreme temperature events and heatwaves to occur more frequently and with greater intensity [@Oliver2019]. The ochre sea star, *Pisaster ochraceus*, is a keystone predator found in many rocky intertidal zones in the Northeast Pacific, and has demonstrated behavioural and physiological changes with altered seawater temperatures that have important implications for their impacts on intertidal zone community structure [@Gooding2009; @Paine2008; @Sanford1999]. Testing how *P. ochraceus* responds to a range of seawater temperatures that includes future extremes will allow researchers to better understand how this important predator's physiology, behaviour, and associated community-level effects may change in a warmer world [@Kordas2011]. The goal of this project is to conduct a replication study on the impacts of seawater temperature on the growth of *P. ochraceus* and its consumption of a common prey species, the bay mussel *Mytilus trossulus*, originally conducted by Gooding and colleagues as part of a larger study examining the impacts of elevated seawater temperature and CO~2~ on the growth, feeding behaviour and calcification rates of *P. ochraceus* [@Gooding2009]. By replicating the temperature-specific experiments on *P. ochraceus*, we hope to provide further support to the importance of seawater temperatures, and the implications of climate change, on the physiology and ecology of this keystone species. 
 
 ## Hypotheses
 <!-- List specific, concise, and testable hypotheses. Please state if the hypotheses are directional or non-directional. If directional, state the direction. A predicted effect is also appropriate here. If a specific interaction or moderation is important to your research, you can list that as a separate hypothesis.
 
 Example: If taste affects preference, then mean preference indices will be higher with higher concentrations of sugar. -->
 
-We hypothesize that *P. ochraceus* growth rates will increase linearly across the range of temperatures employed in this study.  
+Increasing seawater temperatures has had well-documented positive relationships with the physiological rates of a number of marine invertebrates. If seawater temperatures increase incrementally but do not exceed a physiological threshold, we expect to see a positive, linear relationship between seawater temperature and the growth and consumption rates of *P. ochraceus*. 
 
 
 # Design Plan
@@ -252,10 +253,6 @@ Enter your response here.
 Example: We expect that certain demographic traits may be related to taste preferences. Therefore, we will look for relationships between demographic variables (age, gender, income, and marital status) and the primary outcome measures of taste preferences. -->
 
 Enter your response here.
-
-```{r growth with temp, echo = FALSE, fig.cap="caption", out.width='100%'}
-knitr::include_graphics("/Users/sandraemry/Documents/Replicability_Course/Replicability-Preregistration/growth_with_temp.png")
-```
 
 # Other
 
