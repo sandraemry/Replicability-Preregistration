@@ -38,8 +38,7 @@ bibliography: intro_bibliography.bib
 
 Example: Effect of sugar on brownie tastiness. -->
 
-`r rmarkdown::metadata$title`
-: Effects of Increasing Temperature on Sea Star Growth and Feeding Rate
+`r rmarkdown::metadata$title`: Effects of increasing temperature on sea star growth and feeding rate
 
 ## Description
 <!-- Please give a brief description of your study, including some background, the purpose of the of the study, or broad research questions. The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your preregistration.
@@ -165,7 +164,7 @@ We will only collect the number of individuals we have the space for in this exp
 
 Example: We manipulated the percentage of sugar by mass added to brownies. The four levels of this categorical variable are: 15%, 20%, 25%, or 40% cane sugar by mass. -->
 
-Enter your response here.
+We will be manipulating the water temperature in the 24 tanks from a range of 5 - 21 &deg;C.
 
 
 ## Measured variables
@@ -175,7 +174,9 @@ Observational studies and meta-analyses will include only measured variables. As
 
 Example: The single outcome variable will be the perceived tastiness of the single brownie each participant will eat. We will measure this by asking participants ‘How much did you enjoy eating the brownie’ (on a scale of 1-7, 1 being 'not at all', 7 being 'a great deal') and 'How good did the brownie taste' (on a scale of 1-7, 1 being 'very bad', 7 being 'very good'). -->
 
-Enter your response here.
+We will measure growth rate (change in wet mass / initial mass). Initial wet mass will be taken of each individual by removing them from the tank, lightly patting them dry and then weighing them to the nearest 0.1g. A final wet mass will be taken at the end of the experiment, and then again after acclimated all individuals back to 13 &deg;C. This step is to ensure that difference in water temperature did not affect water retention. 
+
+Feeding rate will also be measured. To do this empty mussel shells will be counted every second day, ensuring that no individual runs out of food. A daily average of mussels consumed for each individual will be calculated at the end of the experiment.   
 
 
 ## Indices
@@ -185,7 +186,7 @@ If you are using multiple pieces of data to construct a single variable, how wil
 
 Example: We will take the mean of the two questions above to create a single measure of 'brownie enjoyment.'  -->
 
-Enter your response here.
+The mean between both individuals of a single tank will be taken for growth and feeding rate to avoid pseudo replication as then are subjected to the same manipulated condition. 
 
 
 # Analysis Plan
@@ -204,7 +205,7 @@ This is perhaps the most important and most complicated question within the prer
 
 Example:  We will use a one-way between subjects ANOVA to analyze our results. The manipulated, categorical independent variable is 'sugar' whereas the dependent variable is our taste index. -->
 
-Enter your response here.
+A simple linear regression will be used for both growth rate under increasing temperature and feeding rate under increasing temperature. Here the independent variable for both analyses is temperature, which is a manipulated range. Growth rate and feeding rate are the dependent variables.
 
 
 ## Transformations
