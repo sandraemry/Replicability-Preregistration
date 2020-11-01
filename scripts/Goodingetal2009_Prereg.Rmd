@@ -4,26 +4,18 @@ shorttitle      : "Gooding et al. peregistration"
 date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
 
 author: 
-  - name        : Author
-    affiliation : 1
-  - name        : Mac Rae Danielle
-    affiliation : "3"
-  
-  - name        : Author
-    affiliation : 1
-  - name        : Emry Sandra
-    affiliation : "1"
 
-  - name        : Author
-    affiliation : 1
-  - name        : Brownlee Graham
-    affiliation : "1"
-
-  - name        : Author
-    affiliation : 2
   - name        : Biddlecombe Brooke
     affiliation : "2"
 
+  - name        : Brownlee Graham
+    affiliation : "1"
+
+  - name        : Emry Sandra
+    affiliation : "1"
+
+  - name        : Mac Rae Danielle
+    affiliation : "3"
 
 
 affiliation:
@@ -47,7 +39,7 @@ bibliography: intro_bibliography.bib
 Example: Effect of sugar on brownie tastiness. -->
 
 `r rmarkdown::metadata$title`
-Effects of Increasing Temperature on Sea Star Growth
+: Effects of Increasing Temperature on Sea Star Growth and Feeding Rate
 
 ## Description
 <!-- Please give a brief description of your study, including some background, the purpose of the of the study, or broad research questions. The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your preregistration.
@@ -67,7 +59,7 @@ Increasing seawater temperatures has had well-documented positive relationships 
 # Design Plan
 <!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
 
-We plan to run growth trials under different set temperatures for juvenile sea stars *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 degrees calcium. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration. At the end on the 8 weeks, individuals will be re-weighed and relative growth will be determined. We will then determine if there is a correlation between growth rate and tank temperature. 
+We plan to run growth and feeding trials under different set temperatures for juvenile sea stars *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 degrees calcium.Sea stars will be acclimated to their tanks without food for approximately 6 days. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration.Every second day empty mussel shells will be recorded then discarded and replaced. Individuals will be weighed weekly and final weight will be recorded at the end of the 8 week period. This data will be used to determine relative growth. Feeding rate data will be determine by average daily mussels consumed per sea star at each temperature. 
 
 ## Study type
 
@@ -94,7 +86,7 @@ Juvenile *P. ochraceus* will be reared in the lab, at temperatures ranging from 
 
 Example: We will use block randomization, where each participant will be randomly assigned to one of the four equally sized, predetermined blocks. The random number list used to create these four blocks will be created using the web applications available at http://random.org. -->
 
-Each of the 48 seastars used in this study will be randomly assigned to tanks. 
+Each of the 48 seastars used in this study will be randomly assigned to tanks. We can run a simple linear regression to ensure no bias for initial mass for assigned temperature.  
 
 
 # Sampling Plan
@@ -111,10 +103,11 @@ We plan to sample 48 individuals, this size complies with our lab space constrai
 
 **Registration prior to accessing the data**. As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
 
-**Registration prior to analysis of the data**. As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.-->
+**Registration prior to analysis of the data**. As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
 
-**Registration following analysis of the data**. As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Please see cos.io/prereg for more information.
+**Registration following analysis of the data**. As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Please see cos.io/prereg for more information. -->
 
+**Registration following simulation of replicable data** As of the date of submission, data has been replicated using the linear regression equation published by @Gooding2009 as a preliminary analysis of its reproducability.The data for this experiment have not yet been collected.  
 
 
 ## Explanation of existing data
@@ -124,7 +117,7 @@ An appropriate instance of using existing data would be collecting a sample size
 
 Example: An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point. -->
 
-We have simulated date based on the previous study, including review of summary statistics. This was to ensure that using the same methods this experiment was replicable. 
+We have simulated data based on the previous study of which we are replicating, including review of summary statistics. This was to ensure that, using the same methods, this experiment was replicate. 
 
 
 ## Data collection procedures
@@ -134,7 +127,7 @@ The answer to this question requires a specific set of instructions so that anot
 
 Example: Participants will be recruited through advertisements at local pastry shops. Participants will be paid $10 for agreeing to participate (raised to $30 if our sample size is not reached within 15 days of beginning recruitment). Participants must be at least 18 years old and be able to eat the ingredients of the pastries. -->
 
-Enter your response here.
+We plan to sample 48 juvenile sea stars between 3 - 7g at initial wet mass. This is specified because juveniles have a larger scope for growth as they are not yet investing into reproductive structures. Specimens will be collected over a 2 week period in January from Jericho Beach, Vancouver.All individuals will have a minimum of 4 weeks in acclimation tanks at &deg13;C prior to experiment start.  
 
 
 ## Sample size
@@ -142,7 +135,7 @@ Enter your response here.
 
 Example: Our target sample size is 280 participants. We will attempt to recruit up to 320, assuming that not all will complete the total task. -->
 
-Enter your response here.
+48 individuals will be sample due to equipment restrictions.As there will be 2 individuals in each tank we will use the average between them for growth and feeding rate to avoid pseudo-replication.  
 
 
 ## Sample size rationale
@@ -150,7 +143,7 @@ Enter your response here.
 
 Example: We used the software program G*Power to conduct a power analysis. Our goal was to obtain .95 power to detect a medium effect size of .25 at the standard .05 alpha error probability. -->
 
-Enter your response here.
+Our sample size was determined based on equipment restraints, only 24 available holding tanks.
 
 
 ## Stopping rule
@@ -160,8 +153,7 @@ You may specify a stopping rule based on p-values only in the specific case of s
 
 Example: We will post participant sign-up slots by week on the preceding Friday night, with 20 spots posted per week. We will post 20 new slots each week if, on that Friday night, we are below 320 participants. -->
 
-Enter your response here.
-
+We will only collect the number of individuals we have the space for in this experiment, that being 48. 
 
 
 # Variables
