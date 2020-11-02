@@ -1,9 +1,9 @@
+# Here we are going to generate some data that reflects the growth of the sea star
+#Libraries call
+
 library(tidyverse)
 library(broom)
-
-# Here we are going to generate some data that reflects the growth of the sea star
  
-
 # Setting the seed to get reproducible random numbers, this value is arbitrary
 set.seed(5)
 
