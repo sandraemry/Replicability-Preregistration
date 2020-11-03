@@ -232,6 +232,7 @@ Linear regression analyses were performed using the simulated data for relative 
 
 ## Results
 
+The results from our simulated data closely match the results from @Gooding2009. The summary statistics for the simulated *P. ochraceus* data are shown in Table 1 and Table 2. The relative growth of *P. ochraceus* showed a direct correlation with temperature increase (Figure 1, Table 3). Similarly, increasing temperatures directly correlated with feeding rate (Figure 2, Table 4).
 
 
 ## Data exclusion
