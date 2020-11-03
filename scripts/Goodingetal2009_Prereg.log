@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.27)  1 NOV 2020 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.27)  3 NOV 2020 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,26 +645,30 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 362.
+(hyperref)                be the same. Added a new anchor on input line 351.
 
 [5]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 370.
+(hyperref)                be the same. Added a new anchor on input line 391.
 
-[6] (./Goodingetal2009_Prereg.aux)
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 399.
+
+[6] [7] (./Goodingetal2009_Prereg.aux)
 Package rerunfilecheck Info: File `Goodingetal2009_Prereg.out' has not changed.
 
-(rerunfilecheck)             Checksum: AD8F0BA1350C8C5F926E14DCB99AE051;3846.
+(rerunfilecheck)             Checksum: B50BABAAACCBD73DA723510CA639F627;4192.
  ) 
 Here is how much of TeX's memory you used:
- 10553 strings out of 481866
- 153165 string characters out of 5929334
- 435049 words of memory out of 5000000
- 26646 multiletter control sequences out of 15000+600000
+ 10562 strings out of 481866
+ 153273 string characters out of 5929334
+ 435158 words of memory out of 5000000
+ 26650 multiletter control sequences out of 15000+600000
  592045 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 66i,11n,72p,280b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,11n,72p,280b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-t
 s1.enc}{c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm
 /lm-ec.enc}<c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
@@ -679,10 +683,10 @@ le/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/
 Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c
 :/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri1
 2.pfb>
-Output written on Goodingetal2009_Prereg.pdf (6 pages, 245562 bytes).
+Output written on Goodingetal2009_Prereg.pdf (7 pages, 247522 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 256 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
