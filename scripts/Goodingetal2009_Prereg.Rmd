@@ -240,7 +240,7 @@ The results from our simulated data closely match the results from @Gooding2009.
 
 Example: No checks will be performed to determine eligibility for inclusion besides verification that each subject answered each of the three tastiness indices. Outliers will be included in the analysis. -->
 
-Enter your response here.
+We will visually check for any outliers in the data. If outliers exist, we will conduct a sensitivity analysis by including, and then excluding, outliers in model fits, to determine whether the point(s) have strong leverage on model outputs. If outlier(s) are determined to be the result of measurement error, and not true data, the data will then be excluded from further analysis. 
 
 
 ## Missing data
