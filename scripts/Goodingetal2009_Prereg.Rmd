@@ -330,7 +330,7 @@ kable(caption="Linear regression results for feeding rate of *P. ochraceus* as a
 
 Example: No checks will be performed to determine eligibility for inclusion besides verification that each subject answered each of the three tastiness indices. Outliers will be included in the analysis. -->
 
-Enter your response here.
+We will visually check for any outliers in the data. If outliers exist, we will conduct a sensitivity analysis by including, and then excluding, outliers in model fits, to determine whether the point(s) have strong leverage on model outputs. If outlier(s) are determined to be the result of measurement error, and not true data, the data will then be excluded from further analysis. 
 
 
 ## Missing data
@@ -345,14 +345,7 @@ Example: If a subject does not complete any of the three indices of tastiness, t
 
 Example: We expect that certain demographic traits may be related to taste preferences. Therefore, we will look for relationships between demographic variables (age, gender, income, and marital status) and the primary outcome measures of taste preferences. -->
 
-Enter your response here.
-
-# Other
-
-## Other (Optional)
-<!-- If there is any additional information that you feel needs to be included in your preregistration, please enter it here. Literature cited, disclosures of any related work such as replications or work that uses the same data, or other context that will be helpful for future readers would be appropriate here. -->
-
-Enter your response here.
+No exploratory analyses will be made in this study. We will follow the hypotheses laid out in this pre-registration. 
 
 
 # References
