@@ -3,7 +3,8 @@
 
 library(tidyverse)
 library(broom)
- 
+
+
 # Setting the seed to get reproducible random numbers, this value is arbitrary
 set.seed(5)
 
@@ -14,7 +15,7 @@ set.seed(5)
 # from 5.04 -21.62 degrees celcius - min and max values taken from data set
 
 x <- runif(n = 19, min = 5.04, max = 21.62)
-
+temperature = x
 
 # defining the slope and then the intercept of the original regression
 # initial regression equation taken from data gooding_harley_2009.csv
@@ -29,6 +30,7 @@ b1 <- -45.036
 ytrue <- (b0 * x) + b1
 
 ysim_norm <- ytrue + rnorm(n = 19, mean = 0, sd = 18)
+relative_growth = ysim_norm
 
 #create data frame
 df = data.frame(x, ysim_norm)
@@ -37,8 +39,11 @@ df = data.frame(x, ysim_norm)
 plot(x,ysim_norm)
 
 #create linear model
-m <- lm(ysim_norm ~ x)
+m <- lm(relative_growth ~ temperature)
 summary(m)
+
+
+print(xtable(summary(m)),type='html')
 
 #create plot
 plot(ysim_norm ~ x, data = df, xlim=c(0,25), ylim=c(-25,150), xlab= "Temperature (°C)", ylab= "Relative Growth (%)", pch=16) + 
@@ -75,15 +80,18 @@ c1 <- -0.218
 ytruefeed <- (c0 * x) + c1
 
 ysim_normfeed <- ytruefeed + rnorm(n = 19, mean = 0, sd =0.3)
+feeding_rate = ysim_normfeed
 
 #create data frame
 df = data.frame(x, ysim_norm, ysim_normfeed)
+colnames(df) <- c("Temperature", "Relative Growth","Feeding Rate")
+summary(df) %>% knitr::kable()
 
 #visualize data with rudimentary plot  
 plot(x,ysim_normfeed)
 
 #create linear model
-m2 <- lm(ysim_normfeed ~ x)
+m2 <- lm(feeding_rate ~ temperature)
 summary(m2)
 
 #create plot

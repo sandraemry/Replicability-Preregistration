@@ -28,8 +28,17 @@ affiliation:
 
 output: prereg::cos_prereg
 bibliography: intro_bibliography.bib
-
+header-includes: 
+- \usepackage{float}
 ---
+```{r load-packages, include=FALSE}
+library("tidyverse")
+library("broom")
+library("dplyr")
+library("knitr")
+library("xtable")
+```
+
 
 # Study Information
 
@@ -232,7 +241,88 @@ Linear regression analyses were performed using the simulated data for relative 
 
 ## Results
 
-The results from our simulated data closely match the results from @Gooding2009. The summary statistics for the simulated *P. ochraceus* data are shown in Table 1 and Table 2. The relative growth of *P. ochraceus* showed a direct correlation with temperature increase (Figure 1, Table 3). Similarly, increasing temperatures directly correlated with feeding rate (Figure 2, Table 4).
+The results from our simulated data closely match the results from @Gooding2009. The summary statistics for the simulated *P. ochraceus* data are shown in Table 1. The relative growth of *P. ochraceus* showed a direct correlation with temperature increase (Table 2, Figure 1). Similarly, increasing temperatures directly correlated with feeding rate (Table 3, Figure 2).
+
+```{r, echo = FALSE}
+
+set.seed(5)
+x <- runif(n = 19, min = 5.04, max = 21.62)
+temperature = x
+b0 <- 7.717
+b1 <- -45.036
+ytrue <- (b0 * x) + b1
+
+ysim_norm <- ytrue + rnorm(n = 19, mean = 0, sd = 18)
+relative_growth = ysim_norm
+
+c0 <- 0.109
+c1 <- -0.218
+ytruefeed <- (c0 * x) + c1
+
+ysim_normfeed <- ytruefeed + rnorm(n = 19, mean = 0, sd =0.3)
+feeding_rate = ysim_normfeed
+
+#create data frame
+df = data.frame(x, ysim_norm, ysim_normfeed)
+colnames(df) <- c("Temperature", "Relative Growth","Feeding Rate")
+
+summary(df) %>% knitr::kable(caption = "Summary statistics for simulated data set")
+  
+
+```
+
+```{r, echo=FALSE}
+#create linear model
+m <- lm(relative_growth ~ temperature)
+
+## creating a df with predicted values from model output
+predicted <- augment(m, se_fit = TRUE)
+```
+
+
+```{r, echo=FALSE, fig.cap="Linear regression of realtive growth of *P. ochraceus* as a function of temperature", fig.pos="H"}
+
+ggplot(data = predicted, aes(x = x, y = ysim_norm)) + 
+  geom_point() + 
+  labs(x = "Temperature (°C)", y = "Relative Growth (%)") + 
+  geom_line(aes(y = .fitted)) + 
+  geom_ribbon(aes(y = .fitted, 
+                            ymax = (.fitted + .se.fit), 
+                            ymin = (.fitted - .se.fit)), alpha = 0.25) + 
+  theme_bw()
+```
+
+```{r table, echo=FALSE}
+summary(m) %>%
+xtable() %>%
+kable(caption="Linear regression results for relative growth of *P. ochraceus* as a function of temperature")
+```
+
+```{r, echo=FALSE}
+# create linear model for feeding rate
+m2 <- lm(feeding_rate ~ temperature)
+
+## creating a df with predicted values from model output
+predicted2 <- augment(m2, se_fit = TRUE)
+```
+
+```{r, echo=FALSE, fig.cap="Linear regression of feeding rate of *P. ochraceus* as a function of temperature", fig.pos="H"}
+
+ggplot(data = predicted2, aes(x = x, y = ysim_normfeed)) + 
+  geom_point() + 
+  labs(x = "Temperature (°C)", y = "Feeding rate (mussels/seastar/day)") + 
+  geom_line(aes(y = .fitted)) + 
+  geom_ribbon(aes(y = .fitted, 
+                  ymax = (.fitted + .se.fit), 
+                  ymin = (.fitted - .se.fit)), alpha = 0.25) + 
+  theme_bw()
+```
+
+```{r table2, echo=FALSE}
+summary(m2) %>%
+xtable() %>%
+kable(caption="Linear regression results for feeding rate of *P. ochraceus* as a function of temperature")
+```
 
 
 ## Data exclusion
