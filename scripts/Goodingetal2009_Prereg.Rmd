@@ -279,7 +279,6 @@ m <- lm(relative_growth ~ temperature)
 predicted <- augment(m, se_fit = TRUE)
 ```
 
-
 ```{r, echo=FALSE, fig.cap="Linear regression of realtive growth of *P. ochraceus* as a function of temperature", fig.pos="H"}
 
 ggplot(data = predicted, aes(x = x, y = ysim_norm)) + 
