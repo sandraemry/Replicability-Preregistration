@@ -30,6 +30,7 @@ output: prereg::cos_prereg
 bibliography: intro_bibliography.bib
 header-includes: 
 - \usepackage{float}
+- \floatplacement{figure}{H}
 ---
 ```{r load-packages, include=FALSE}
 library("tidyverse")
@@ -67,11 +68,8 @@ Increasing seawater temperatures has had well-documented positive relationships 
 # Design Plan
 <!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
 
-<<<<<<< HEAD
-We plan to run growth and feeding trials under different set temperatures for juvenile *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 &deg;C. Individuals will be acclimated to their tanks without food for approximately 6 days. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration. Every second day, empty mussel shells will be recorded then discarded and replaced. Individuals will be weighed weekly and final weight will be recorded at the end of the 8 week period. This data will be used to determine relative growth. Feeding rate data will be determine by average daily mussels consumed per sea star at each temperature. 
-=======
-We plan to run growth and feeding trials under different set temperatures for juvenile sea stars *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 &deg;C.Sea stars will be acclimated to their tanks without food for approximately 6 days. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration.Every second day empty mussel shells will be recorded then discarded and replaced. Individuals will be weighed weekly and final weight will be recorded at the end of the 8 week period. This data will be used to determine relative growth. Feeding rate data will be determine by average daily mussels consumed per sea star at each temperature. 
->>>>>>> 6a6307d266225b3844dce8b197b7a1cc2f72ae9b
+We plan to run growth and feeding trials under different set temperatures for juvenile sea stars *P. ochraceus*. Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 &deg;C. Sea stars will be acclimated to their tanks without food for approximately 6 days. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration.Every second day empty mussel shells will be recorded then discarded and replaced. Individuals will be weighed weekly and final weight will be recorded at the end of the 8 week period. This data will be used to determine relative growth. Feeding rate data will be determine by average daily mussels consumed per sea star at each temperature. 
+
 
 ## Study type
 
@@ -245,7 +243,7 @@ Linear regression analyses were performed using the simulated data for relative 
 
 ## Results
 
-The results from our simulated data closely match the results from @Gooding2009. The summary statistics for the simulated *P. ochraceus* data are shown in Table 1. The relative growth of *P. ochraceus* showed a direct correlation with temperature increase (Table 2, Figure 1). Similarly, increasing temperatures directly correlated with feeding rate (Table 3, Figure 2).
+The results from our simulated data closely match the results from @Gooding2009. The summary statistics for the simulated *P. ochraceus* data are shown in Table 1. The relative growth of *P. ochraceus* showed a direct correlation with temperature increase (Figure 1, Table 2). Similarly, increasing temperatures directly correlated with feeding rate (Figure 2, Table 3).
 
 ```{r, echo = FALSE}
 
