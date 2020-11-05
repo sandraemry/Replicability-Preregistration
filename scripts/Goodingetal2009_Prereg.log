@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  3 NOV 2020 12:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  3 NOV 2020 12:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,6 +528,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/Users/sandraemry/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 }]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+96.
+(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.0pt.
@@ -539,11 +544,6 @@ This may cause the page layout to be inconsistent, however.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 207.
 
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-22.
-(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 244.
@@ -565,22 +565,18 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 [5]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 391.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 399.
+(hyperref)                be the same. Added a new anchor on input line 397.
 
 [6] [7] (./Goodingetal2009_Prereg.aux)
 Package rerunfilecheck Info: File `Goodingetal2009_Prereg.out' has not changed.
 
-(rerunfilecheck)             Checksum: B50BABAAACCBD73DA723510CA639F627;4192.
+(rerunfilecheck)             Checksum: 7FE4E55989D32FDCEA98F922A7EC8E08;3978.
  ) 
 Here is how much of TeX's memory you used:
- 10562 strings out of 481445
- 151946 string characters out of 5919711
- 437813 words of memory out of 5000000
- 27073 multiletter control sequences out of 15000+600000
+ 10556 strings out of 481445
+ 151882 string characters out of 5919711
+ 437743 words of memory out of 5000000
+ 27070 multiletter control sequences out of 15000+600000
  592045 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  66i,11n,72p,280b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -596,10 +592,10 @@ s/sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users
 andraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/san
 draemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/san
 draemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on Goodingetal2009_Prereg.pdf (7 pages, 247506 bytes).
+Output written on Goodingetal2009_Prereg.pdf (7 pages, 247263 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 247 PDF objects out of 1000 (max. 8388607)
+ 225 compressed objects within 3 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 257 words of extra memory for PDF output out of 10000 (max. 10000000)
 

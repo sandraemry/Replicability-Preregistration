@@ -58,7 +58,7 @@ Increasing seawater temperatures has had well-documented positive relationships 
 # Design Plan
 <!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
 
-We plan to run growth and feeding trials under different set temperatures for juvenile sea stars *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 degrees calcium.Sea stars will be acclimated to their tanks without food for approximately 6 days. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration.Every second day empty mussel shells will be recorded then discarded and replaced. Individuals will be weighed weekly and final weight will be recorded at the end of the 8 week period. This data will be used to determine relative growth. Feeding rate data will be determine by average daily mussels consumed per sea star at each temperature. 
+We plan to run growth and feeding trials under different set temperatures for juvenile sea stars *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 &deg;C. Sea stars will be acclimated to their tanks without food for approximately 6 days. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration.Every second day empty mussel shells will be recorded then discarded and replaced. Individuals will be weighed weekly and final weight will be recorded at the end of the 8 week period. This data will be used to determine relative growth. Feeding rate data will be determined by average daily mussels consumed per sea star at each temperature. 
 
 ## Study type
 
@@ -85,7 +85,7 @@ Juvenile *P. ochraceus* will be reared in the lab, at temperatures ranging from 
 
 Example: We will use block randomization, where each participant will be randomly assigned to one of the four equally sized, predetermined blocks. The random number list used to create these four blocks will be created using the web applications available at http://random.org. -->
 
-Each of the 48 seastars used in this study will be randomly assigned to tanks. We can run a simple linear regression to ensure no bias for initial mass for assigned temperature.  
+Each of the 48 seastars used in this study will be randomly assigned to tanks. We will run a simple linear regression to ensure no bias for initial mass for assigned temperature.  
 
 
 # Sampling Plan
@@ -116,7 +116,7 @@ An appropriate instance of using existing data would be collecting a sample size
 
 Example: An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point. -->
 
-We have simulated data based on the previous study of which we are replicating, including review of summary statistics. This was to ensure that, using the same methods, this experiment was replicate. 
+We have simulated data based on the model parameters from the study of which we are replicating. This is to ensure that our results are indeed replicating the results from @Gooding2009. 
 
 
 ## Data collection procedures
@@ -126,7 +126,7 @@ The answer to this question requires a specific set of instructions so that anot
 
 Example: Participants will be recruited through advertisements at local pastry shops. Participants will be paid $10 for agreeing to participate (raised to $30 if our sample size is not reached within 15 days of beginning recruitment). Participants must be at least 18 years old and be able to eat the ingredients of the pastries. -->
 
-We plan to sample 48 juvenile sea stars between 3 - 7g at initial wet mass. This is specified because juveniles have a larger scope for growth as they are not yet investing into reproductive structures. Specimens will be collected over a 2 week period in January from Jericho Beach, Vancouver.All individuals will have a minimum of 4 weeks in acclimation tanks at &deg13;C prior to experiment start.  
+We plan to sample 48 juvenile sea stars between 3 - 7g at initial wet mass. This is specified because juveniles have a larger scope for growth as they are not yet investing into reproductive structures. Specimens will be collected over a 2 week period in January from Jericho Beach, Vancouver. All individuals will have a minimum of 4 weeks in acclimation tanks at &deg13;C prior to experiment start.  
 
 
 ## Sample size
