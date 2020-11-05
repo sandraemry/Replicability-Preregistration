@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  5 NOV 2020 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.11.5)  5 NOV 2020 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -424,8 +424,7 @@ tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count286
 \l__pdf_internal_box=\box59
-)
-No file Goodingetal2009_Prereg.aux.
+) (./Goodingetal2009_Prereg.aux)
 \openout1 = `Goodingetal2009_Prereg.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
@@ -502,6 +501,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 132.
 LaTeX Info: Redefining \pageref on input line 132.
 LaTeX Info: Redefining \nameref on input line 132.
+(./Goodingetal2009_Prereg.out) (./Goodingetal2009_Prereg.out)
 \@outlinefile=\write3
 \openout3 = `Goodingetal2009_Prereg.out'.
 
@@ -554,21 +554,134 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 133
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-! LaTeX Error: Too deeply nested.
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 153.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 187.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 187.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 187.
+[1
+
+{/Users/sandraemry/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+}]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+11.
+(/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.0pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+[2]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 221.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 258.
+
+[3]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 316.
+
+[4]
+Underfull \hbox (badness 3068) in paragraph at lines 326--334
+[] [] \T1/lmr/m/n/10 For the first repli-ca-tion ex-per-i-ment, we will mea-sur
+e $\OML/lmm/m/it/10 relativegrowth \OT1/lmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 2671) in paragraph at lines 326--334
+\OML/lmm/m/it/10 changeinwetmass=initialmass \OMS/lmsy/m/n/10 ^^C \OT1/lmr/m/n/
+10 100)$ \T1/lmr/m/n/10 of \T1/lmr/m/it/10 P. ochraceus \T1/lmr/m/n/10 across t
+he range of
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 352.
+
+[5]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 377.
+
+<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf, id=168, 469.7
+55pt x 325.215pt>
+File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf Graphic f
+ile (type pdf)
+<use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf>
+Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
+k-3-1.pdf  used on input line 421.
+(pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
+[6]
+<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf, id=177, 469.7
+55pt x 325.215pt>
+File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf Graphic f
+ile (type pdf)
+<use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
+k-5-1.pdf  used on input line 447.
+(pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.153 \begin{quote}
-                    
-Here is how much of TeX's memory you used:
- 10729 strings out of 481445
- 154824 string characters out of 5919711
- 435005 words of memory out of 5000000
- 27298 multiletter control sequences out of 15000+600000
- 563606 words of font info for 50 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 66i,4n,72p,254b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+l.451 
+       <./Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf>] [8p
+dfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.483 ...ection{Missing data}\label{missing-data}}
+                                                   <./Goodingetal2009_Prereg_fi
+les/figure-latex/unnamed-chunk-5-1.pdf>]
 
-!  ==> Fatal error occurred, no output PDF file produced!
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 501.
+
+[9] (./Goodingetal2009_Prereg.aux)
+Package rerunfilecheck Info: File `Goodingetal2009_Prereg.out' has not changed.
+
+(rerunfilecheck)             Checksum: CF265F9E073246F304043EA3875C1C1C;3963.
+ ) 
+Here is how much of TeX's memory you used:
+ 10940 strings out of 481433
+ 158515 string characters out of 5919257
+ 443891 words of memory out of 5000000
+ 27429 multiletter control sequences out of 15000+600000
+ 592045 words of font info for 71 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 66i,11n,72p,277b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.en
+c}{/Users/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/
+Users/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/
+Users/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/Use
+rs/sandraemry/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</Users/s
+andraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/s
+andraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/s
+andraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></Users/
+sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></Users/
+sandraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/s
+andraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/sa
+ndraemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/san
+draemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/sandr
+aemry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/sandrae
+mry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/sandrae
+mry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/sandrae
+mry/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on Goodingetal2009_Prereg.pdf (9 pages, 271206 bytes).
+PDF statistics:
+ 292 PDF objects out of 1000 (max. 8388607)
+ 262 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+
