@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  5 NOV 2020 13:11
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.27)  5 NOV 2020 14:04
+>>>>>>> 7ee9f0b4b379125a2b781480c6af90da245dac5c
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,18 +649,23 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 150.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 183.
+(Font)              <10> on input line 184.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 183.
+(Font)              <7> on input line 184.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 183.
+(Font)              <5> on input line 184.
 [1
 
 {/Users/brookebiddlecombe/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
 tex.map}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+<<<<<<< HEAD
 06.
 (/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+=======
+08.
+(c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+>>>>>>> 7ee9f0b4b379125a2b781480c6af90da245dac5c
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
@@ -668,67 +677,75 @@ This may cause the page layout to be inconsistent, however.
 [2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 217.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 254.
+(hyperref)                be the same. Added a new anchor on input line 233.
 
 [3]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 304.
+(hyperref)                be the same. Added a new anchor on input line 270.
 
 [4]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 336.
+(hyperref)                be the same. Added a new anchor on input line 324.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 361.
+(hyperref)                be the same. Added a new anchor on input line 360.
 
 [5]
-<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf, id=168, 469.7
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 385.
+
+<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf, id=164, 469.7
 55pt x 325.215pt>
 File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf Graphic f
 ile (type pdf)
 <use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf>
 Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
-k-3-1.pdf  used on input line 404.
-(pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
-<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf, id=169, 469.7
-55pt x 325.215pt>
-File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf Graphic f
-ile (type pdf)
-<use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf>
-Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
-k-5-1.pdf  used on input line 430.
+k-3-1.pdf  used on input line 428.
 (pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
 [6] [7pdfTeX warning (ext4): destination with the same identifier (name{figure.
 1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.456 ...on{Data exclusion}\label{data-exclusion}}
-                                                   <./Goodingetal2009_Prereg_fi
-les/figure-latex/unnamed-chunk-3-1.pdf>] [8pdfTeX warning (ext4): destination w
-ith the same identifier (name{figure.2}) has been already used, duplicate ignor
-ed
+l.450 \end{longtable}
+                      <./Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
+k-3-1.pdf>]
+<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf, id=189, 469.7
+55pt x 325.215pt>
+File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf Graphic f
+ile (type pdf)
+<use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
+k-5-1.pdf  used on input line 454.
+(pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
+
+Overfull \vbox (233.18338pt too high) has occurred while \output is active []
+
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   
-l.456 ...on{Data exclusion}\label{data-exclusion}}
-                                                   <./Goodingetal2009_Prereg_fi
-les/figure-latex/unnamed-chunk-5-1.pdf>]
+l.508 \subsection{}\label{section}}
+                                    <./Goodingetal2009_Prereg_files/figure-late
+x/unnamed-chunk-5-1.pdf>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
+<<<<<<< HEAD
 (hyperref)                be the same. Added a new anchor on input line 484.
+=======
+(hyperref)                be the same. Added a new anchor on input line 508.
+>>>>>>> 7ee9f0b4b379125a2b781480c6af90da245dac5c
 
-[9] [10] (./Goodingetal2009_Prereg.aux)
+[9] (./Goodingetal2009_Prereg.aux)
 Package rerunfilecheck Info: File `Goodingetal2009_Prereg.out' has not changed.
 
 (rerunfilecheck)             Checksum: CF265F9E073246F304043EA3875C1C1C;3963.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  10940 strings out of 481445
  159800 string characters out of 5919109
  447719 words of memory out of 5000000
@@ -750,9 +767,33 @@ ary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/brookebiddlecombe
 combe/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/brook
 ebiddlecombe/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
 Output written on Goodingetal2009_Prereg.pdf (10 pages, 261381 bytes).
+=======
+ 10939 strings out of 481866
+ 159984 string characters out of 5929334
+ 445070 words of memory out of 5000000
+ 26993 multiletter control sequences out of 15000+600000
+ 592045 words of font info for 71 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 66i,11n,72p,277b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-t
+s1.enc}{c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm
+/lm-ec.enc}<c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
+blic/lm/lmbx10.pfb><c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/
+type1/public/lm/lmbx12.pfb><c:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/type1/public/lm/lmcsc10.pfb><c:/Users/Danielle/AppData/Roaming/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/Danielle/AppData/Roaming/T
+inyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/Danielle/AppData/Ro
+aming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/Danielle/App
+Data/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/Users/Daniel
+le/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/
+Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c
+:/Users/Danielle/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri1
+2.pfb>
+Output written on Goodingetal2009_Prereg.pdf (9 pages, 262936 bytes).
+>>>>>>> 7ee9f0b4b379125a2b781480c6af90da245dac5c
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
+ 279 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
  267 words of extra memory for PDF output out of 10000 (max. 10000000)
 
