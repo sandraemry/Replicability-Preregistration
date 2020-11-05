@@ -67,7 +67,11 @@ Increasing seawater temperatures has had well-documented positive relationships 
 # Design Plan
 <!-- In this section, you will be asked to describe the overall design of your study. Remember that this research plan is designed to register a single study, so if you have multiple experimental designs, please complete a separate preregistration. -->
 
+<<<<<<< HEAD
 We plan to run growth and feeding trials under different set temperatures for juvenile *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 &deg;C. Individuals will be acclimated to their tanks without food for approximately 6 days. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration. Every second day, empty mussel shells will be recorded then discarded and replaced. Individuals will be weighed weekly and final weight will be recorded at the end of the 8 week period. This data will be used to determine relative growth. Feeding rate data will be determine by average daily mussels consumed per sea star at each temperature. 
+=======
+We plan to run growth and feeding trials under different set temperatures for juvenile sea stars *P. ochraceus*.Individuals will be collected and initial wet mass will be determined. Each star will be randomly assigned to temperature treatment between 5 - 21 &deg;C.Sea stars will be acclimated to their tanks without food for approximately 6 days. Individuals will remain in their treatment tank for 8 weeks, being fed ad libitum for the duration.Every second day empty mussel shells will be recorded then discarded and replaced. Individuals will be weighed weekly and final weight will be recorded at the end of the 8 week period. This data will be used to determine relative growth. Feeding rate data will be determine by average daily mussels consumed per sea star at each temperature. 
+>>>>>>> 6a6307d266225b3844dce8b197b7a1cc2f72ae9b
 
 ## Study type
 
@@ -337,6 +341,7 @@ We will visually check for any outliers in the data. If outliers exist, we will 
 
 Example: If a subject does not complete any of the three indices of tastiness, that subject will not be included in the analysis. -->
 
+The only foreseeable source of missing data would be the result of sea star death. If a sea star dies during the experiment the data from the other sea star in the tank will not be included in the study because we will not be able to calculate the mean of both individuals in the tank.
 
 
 ## Exploratory analyses (optional)
