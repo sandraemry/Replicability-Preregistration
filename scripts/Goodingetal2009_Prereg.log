@@ -1,14 +1,25 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  3 NOV 2020 12:44
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.28)  5 NOV 2020 14:15
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Goodingetal2009_Prereg.tex
 (./Goodingetal2009_Prereg.tex
 LaTeX2e <2020-10-01> patch level 2
+<<<<<<< HEAD
 L3 programming layer <2020-10-27> xparse <2020-03-03> (/Users/sandraemry/Librar
 y/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+=======
+L3 programming layer <2020-10-27> xparse <2020-03-03>
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
@@ -22,7 +33,11 @@ File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
+<<<<<<< HEAD
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+=======
+) (/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -56,9 +71,19 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+<<<<<<< HEAD
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+=======
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb
+.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfont
+s.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks15
 \symAMSa=\mathgroup4
@@ -66,6 +91,7 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+<<<<<<< HEAD
 )) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip49
@@ -80,6 +106,32 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+=======
+))
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.
+sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.
+sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.s
+ty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+))
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.s
+ty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.s
+ty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count183
@@ -119,6 +171,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
+<<<<<<< HEAD
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
@@ -126,6 +179,23 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 )) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.sty
+=======
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.
+sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.st
+y
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex
+.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.st
+y
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
 Applying: [2015/01/01] Old fixltx2e package on input line 46.
 
@@ -134,6 +204,7 @@ Package fixltx2e Warning: fixltx2e is not required with releases after 2015
 (fixltx2e)                See the latexrelease package for details.
 
 Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+<<<<<<< HEAD
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
@@ -150,6 +221,33 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+=======
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.st
+y
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks21
+\inpenc@posthook=\toks22
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometr
+y.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.
+sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks23
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.s
+ty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count195
@@ -164,6 +262,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen154
 \Gm@layoutvoffset=\dimen155
 \Gm@dimlist=\toks24
+<<<<<<< HEAD
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
@@ -176,12 +275,31 @@ Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.s
 ty
+=======
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperre
+f.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmd
+s.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdf
+texcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infw
+arerr.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.s
 ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -203,11 +321,40 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+=======
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvse
+tkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/k
+vdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfe
+scape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.
+sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letl
+txmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.
+sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvopti
+ons.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen156
 \Hy@linkcounter=\count198
 \Hy@pagecounter=\count199
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -216,11 +363,32 @@ Now handling font encoding PD1 ...
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.
+def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcal
+c.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexc
+mds.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count266
 Package hyperref Info: Option `unicode' set `true' on input line 4338.
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.d
+ef
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -233,17 +401,31 @@ Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
 \c@Hy@tempcnt=\count267
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+=======
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen157
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc
 .sty
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.
+sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/big
+intcalc.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -259,7 +441,13 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6372.
 Package hyperref Info: PDF/A mode OFF on input line 6377.
 LaTeX Info: Redefining \ref on input line 6417.
 LaTeX Info: Redefining \pageref on input line 6421.
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-lt
+x.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
@@ -269,9 +457,19 @@ with kernel methods
 \c@Hfootnote=\count271
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex
+.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-l
+tx.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
@@ -279,12 +477,21 @@ with kernel methods
 \Fld@listcount=\count272
 \c@bookmark@seq@number=\count273
 
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfil
 echeck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquec
 ounter.sty
+=======
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/r
+erunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/
+uniquecounter.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -298,7 +505,45 @@ Package hyperref Warning: Option `bookmarks' has already been used,
 (hyperref)                setting the option has no effect on input line 42.
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 42.
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphic
+x.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphic
+s.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.st
+y
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gra
+phics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdf
+tex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/grffile/grffile.
+sty
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/tools/longtable.
+sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTleft=\skip53
 \LTright=\skip54
@@ -315,7 +560,13 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \c@LT@tables=\count277
 \c@LT@chunks=\count278
 \LT@p@ftn=\toks25
+<<<<<<< HEAD
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+=======
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/booktabs/booktab
+s.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen161
 \lightrulewidth=\dimen162
@@ -335,6 +586,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count282
 \@thisrulewidth=\dimen173
 )
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/threepar
 ttable.sty
 Package: threeparttable 2003/06/13  v 3.0
@@ -342,6 +594,17 @@ Package: threeparttable 2003/06/13  v 3.0
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+=======
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/threeparttable/t
+hreeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box53
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/tools/tabularx.s
+ty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \col@sep=\dimen174
 \ar@mcellbox=\box54
@@ -360,12 +623,24 @@ Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
 \TX@ftn=\toks27
 )
 \c@question=\count284
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/titling/titling.sty
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/titling/titling.
+sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: titling 2009/09/04 v2.1d maketitle typesetting
 \thanksmarkwidth=\skip59
 \thanksmargin=\skip60
 \droptitle=\skip61
+<<<<<<< HEAD
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+=======
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhd
+r.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip62
@@ -377,11 +652,26 @@ s
 \f@nch@O@erf=\skip68
 \f@nch@O@olf=\skip69
 \f@nch@O@orf=\skip70
+<<<<<<< HEAD
 ) (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.sty
+=======
+) (/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/float/float.st
+y
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count285
+\float@exts=\toks28
+\float@box=\box56
+\@float@everytoks=\toks29
+\@floatcapt=\box57
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/titlesec/titlese
+c.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \ttl@box=\box56
 \beforetitleunit=\skip71
 \aftertitleunit=\skip72
+<<<<<<< HEAD
 \ttl@plus=\dimen181
 \ttl@minus=\dimen182
 \ttl@toksa=\toks28
@@ -391,12 +681,24 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 )
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdf
 tex.def
+=======
+\ttl@plus=\dimen183
+\ttl@minus=\dimen184
+\ttl@toksa=\toks30
+\titlewidth=\dimen185
+\titlewidthlast=\dimen186
+\titlewidthfirst=\dimen187
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3back
+end-pdftex.def
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count285
 \l__pdf_internal_box=\box57
 ) (./Goodingetal2009_Prereg.aux)
 \openout1 = `Goodingetal2009_Prereg.aux'.
 
+<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 121.
@@ -415,6 +717,26 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 121.
 LaTeX Font Info:    ... okay on input line 121.
+=======
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 132.
+LaTeX Font Info:    ... okay on input line 132.
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -449,6 +771,7 @@ LaTeX Font Info:    ... okay on input line 121.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<<<<<<< HEAD
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -467,17 +790,49 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettit
 lestring.sty
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.s
+ty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/col
+or.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 132.
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref
+.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcoun
+t.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring
+/gettitlestring.sty
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count286
 )
+<<<<<<< HEAD
 LaTeX Info: Redefining \ref on input line 121.
 LaTeX Info: Redefining \pageref on input line 121.
 LaTeX Info: Redefining \nameref on input line 121.
+=======
+LaTeX Info: Redefining \ref on input line 132.
+LaTeX Info: Redefining \pageref on input line 132.
+LaTeX Info: Redefining \nameref on input line 132.
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 (./Goodingetal2009_Prereg.out) (./Goodingetal2009_Prereg.out)
 \@outlinefile=\write3
 \openout3 = `Goodingetal2009_Prereg.out'.
 
+<<<<<<< HEAD
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 22.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -512,10 +867,61 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 122
 .
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+=======
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/eps
+topdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epst
+opdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+33.
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+33.
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+133.
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+133.
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 133.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 133.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 133.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 133
+.
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 133
+.
+
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
+<<<<<<< HEAD
 (hyperref)                be the same. Added a new anchor on input line 140.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -531,6 +937,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
 96.
 (/Users/sandraemry/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+=======
+(hyperref)                be the same. Added a new anchor on input line 151.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 185.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 185.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 185.
+[1
+
+{/Users/brookebiddlecombe/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+08.
+(/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 
@@ -542,24 +965,42 @@ This may cause the page layout to be inconsistent, however.
 [2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
+<<<<<<< HEAD
 (hyperref)                be the same. Added a new anchor on input line 207.
 
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 244.
+=======
+(hyperref)                be the same. Added a new anchor on input line 219.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 256.
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 
 [3]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
+<<<<<<< HEAD
 (hyperref)                be the same. Added a new anchor on input line 294.
+=======
+(hyperref)                be the same. Added a new anchor on input line 310.
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 
 [4]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
+<<<<<<< HEAD
 (hyperref)                be the same. Added a new anchor on input line 326.
+=======
+(hyperref)                be the same. Added a new anchor on input line 346.
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 
+[5]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
+<<<<<<< HEAD
 (hyperref)                be the same. Added a new anchor on input line 351.
 
 [5]
@@ -568,11 +1009,51 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 397.
 
 [6] [7] (./Goodingetal2009_Prereg.aux)
+=======
+(hyperref)                be the same. Added a new anchor on input line 371.
+
+<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf, id=165, 469.7
+55pt x 325.215pt>
+File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf Graphic f
+ile (type pdf)
+<use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf>
+Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
+k-3-1.pdf  used on input line 414.
+(pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
+[6]
+<Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf, id=174, 469.7
+55pt x 325.215pt>
+File: Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf Graphic f
+ile (type pdf)
+<use Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf>
+Package pdftex.def Info: Goodingetal2009_Prereg_files/figure-latex/unnamed-chun
+k-5-1.pdf  used on input line 440.
+(pdftex.def)             Requested size: 361.34691pt x 250.16324pt.
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.444 
+       <./Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf>] [8p
+dfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
+ been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.476 ...ection{Missing data}\label{missing-data}}
+                                                   <./Goodingetal2009_Prereg_fi
+les/figure-latex/unnamed-chunk-5-1.pdf>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 494.
+
+[9] (./Goodingetal2009_Prereg.aux)
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 Package rerunfilecheck Info: File `Goodingetal2009_Prereg.out' has not changed.
 
 (rerunfilecheck)             Checksum: 7FE4E55989D32FDCEA98F922A7EC8E08;3978.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  10556 strings out of 481445
  151882 string characters out of 5919711
  437743 words of memory out of 5000000
@@ -598,4 +1079,32 @@ PDF statistics:
  225 compressed objects within 3 object streams
  55 named destinations out of 1000 (max. 500000)
  257 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 10940 strings out of 481445
+ 159803 string characters out of 5919109
+ 444723 words of memory out of 5000000
+ 27417 multiletter control sequences out of 15000+600000
+ 592045 words of font info for 71 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 66i,11n,72p,277b,413s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts
+1.enc}{/Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/l
+m-ec.enc}</Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/fonts/type1/publi
+c/lm/lmbx10.pfb></Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/fonts/type
+1/public/lm/lmbx12.pfb></Users/brookebiddlecombe/Library/TinyTeX/texmf-dist/fon
+ts/type1/public/lm/lmcsc10.pfb></Users/brookebiddlecombe/Library/TinyTeX/texmf-
+dist/fonts/type1/public/lm/lmr10.pfb></Users/brookebiddlecombe/Library/TinyTeX/
+texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/brookebiddlecombe/Library/Ti
+nyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/brookebiddlecombe/Libr
+ary/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/brookebiddlecombe
+/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/brookebiddle
+combe/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/brook
+ebiddlecombe/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on Goodingetal2009_Prereg.pdf (9 pages, 262022 bytes).
+PDF statistics:
+ 279 PDF objects out of 1000 (max. 8388607)
+ 251 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 
