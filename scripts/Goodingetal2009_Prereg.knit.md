@@ -1,7 +1,7 @@
 ---
 title           : "Preregistration for reproducing Gooding et al. 2009"
 shorttitle      : "Gooding et al. peregistration"
-date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\. %B %Y')`"
+date            : "05\\. November 2020"
 
 author: 
 
@@ -33,13 +33,7 @@ header-includes:
 - \usepackage{float}
 - \floatplacement{figure}{H}
 ---
-```{r load-packages, include=FALSE}
-library("tidyverse")
-library("broom")
-library("dplyr")
-library("knitr")
-library("xtable")
-```
+
 >>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 
 ---
@@ -51,7 +45,7 @@ library("xtable")
 
 Example: Effect of sugar on brownie tastiness. -->
 
-`r rmarkdown::metadata$title`: Effects of increasing temperature on ochre sea star *Pisaster ochraceus* growth and feeding rate
+Preregistration for reproducing Gooding et al. 2009: Effects of increasing temperature on ochre sea star *Pisaster ochraceus* growth and feeding rate
 
 ## Description
 <!-- Please give a brief description of your study, including some background, the purpose of the of the study, or broad research questions. The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your preregistration.
@@ -263,85 +257,41 @@ The results from our simulated data closely match the results from @Gooding2009.
 =======
 The results from our simulated data closely match the results from @Gooding2009. The summary statistics for the simulated *P. ochraceus* data are shown in Table 1. The relative growth of *P. ochraceus* showed a direct correlation with temperature increase (Figure 1, Table 2). Similarly, increasing temperatures directly correlated with feeding rate (Figure 2, Table 3).
 
-```{r, echo = FALSE}
 
-set.seed(5)
-x <- runif(n = 19, min = 5.04, max = 21.62)
-temperature = x
-b0 <- 7.717
-b1 <- -45.036
-ytrue <- (b0 * x) + b1
+Table: Summary statistics for simulated data set
 
-ysim_norm <- ytrue + rnorm(n = 19, mean = 0, sd = 18)
-relative_growth = ysim_norm
+|   | Temperature   |Relative Growth  | Feeding Rate  |
+|:--|:--------------|:----------------|:--------------|
+|   |Min.   : 6.775 |Min.   :  0.6902 |Min.   :0.3126 |
+|   |1st Qu.: 9.482 |1st Qu.: 31.3329 |1st Qu.:0.9467 |
+|   |Median :13.173 |Median : 43.6248 |Median :1.1857 |
+|   |Mean   :13.096 |Mean   : 56.9834 |Mean   :1.2428 |
+|   |3rd Qu.:16.532 |3rd Qu.: 79.8569 |3rd Qu.:1.5520 |
+|   |Max.   :20.899 |Max.   :143.0124 |Max.   :2.3528 |
 
-c0 <- 0.109
-c1 <- -0.218
-ytruefeed <- (c0 * x) + c1
 
-ysim_normfeed <- ytruefeed + rnorm(n = 19, mean = 0, sd =0.3)
-feeding_rate = ysim_normfeed
 
-#create data frame
-df = data.frame(x, ysim_norm, ysim_normfeed)
-colnames(df) <- c("Temperature", "Relative Growth","Feeding Rate")
+![Linear regression of realtive growth of *P. ochraceus* as a function of temperature](Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-3-1.pdf) 
 
-summary(df) %>% knitr::kable(caption = "Summary statistics for simulated data set")
-  
 
-```
+Table: Linear regression results for relative growth of *P. ochraceus* as a function of temperature
 
-```{r, echo=FALSE}
-#create linear model
-m <- lm(relative_growth ~ temperature)
+|            |   Estimate| Std. Error|   t value| Pr(>&#124;t&#124;)|
+|:-----------|----------:|----------:|---------:|------------------:|
+|(Intercept) | -38.463187|  14.081628| -2.731445|          0.0142097|
+|temperature |   7.288427|   1.017203|  7.165161|          0.0000016|
 
-## creating a df with predicted values from model output
-predicted <- augment(m, se_fit = TRUE)
-```
 
-```{r, echo=FALSE, fig.cap="Linear regression of realtive growth of *P. ochraceus* as a function of temperature", fig.pos="H"}
 
-ggplot(data = predicted, aes(x = x, y = ysim_norm)) + 
-  geom_point() + 
-  labs(x = "Temperature (°C)", y = "Relative Growth (%)") + 
-  geom_line(aes(y = .fitted)) + 
-  geom_ribbon(aes(y = .fitted, 
-                            ymax = (.fitted + .se.fit), 
-                            ymin = (.fitted - .se.fit)), alpha = 0.25) + 
-  theme_bw()
-```
+![Linear regression of feeding rate of *P. ochraceus* as a function of temperature](Goodingetal2009_Prereg_files/figure-latex/unnamed-chunk-5-1.pdf) 
 
-```{r table, echo=FALSE}
-summary(m) %>%
-xtable() %>%
-kable(caption="Linear regression results for relative growth of *P. ochraceus* as a function of temperature")
-```
 
-```{r, echo=FALSE}
-# create linear model for feeding rate
-m2 <- lm(feeding_rate ~ temperature)
+Table: Linear regression results for feeding rate of *P. ochraceus* as a function of temperature
 
-## creating a df with predicted values from model output
-predicted2 <- augment(m2, se_fit = TRUE)
-```
-
-```{r, echo=FALSE, fig.cap="Linear regression of feeding rate of *P. ochraceus* as a function of temperature", fig.pos="H"}
-
-ggplot(data = predicted2, aes(x = x, y = ysim_normfeed)) + 
-  geom_point() + 
-  labs(x = "Temperature (°C)", y = "Feeding rate (mussels/seastar/day)") + 
-  geom_line(aes(y = .fitted)) + 
-  geom_ribbon(aes(y = .fitted, 
-                  ymax = (.fitted + .se.fit), 
-                  ymin = (.fitted - .se.fit)), alpha = 0.25) + 
-  theme_bw()
-```
-
-```{r table2, echo=FALSE}
-summary(m2) %>%
-xtable() %>%
-kable(caption="Linear regression results for feeding rate of *P. ochraceus* as a function of temperature")
-```
+|            |  Estimate| Std. Error|   t value| Pr(>&#124;t&#124;)|
+|:-----------|---------:|----------:|---------:|------------------:|
+|(Intercept) | 0.1334245|   0.221593| 0.6021151|          0.5550441|
+|temperature | 0.0847146|   0.016007| 5.2923375|          0.0000597|
 >>>>>>> 0cfe0a5e5cab20467b62b440b7288b3b5860f2d1
 
 
