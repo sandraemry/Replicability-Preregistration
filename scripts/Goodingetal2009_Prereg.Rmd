@@ -337,6 +337,7 @@ We will visually check for any outliers in the data. If outliers exist, we will 
 
 Example: If a subject does not complete any of the three indices of tastiness, that subject will not be included in the analysis. -->
 
+The only foreseeable source of missing data would be the result of sea star death. If a sea star dies during the experiment the data from the other sea star in the tank will not be included in the study because we will not be able to calculate the mean of both individuals in the tank.
 
 
 ## Exploratory analyses (optional)
